@@ -20,7 +20,7 @@ I started this year out with one goal: I was going to become a ✨ Data Scientis
 
 With that in mind, I took part in Data Science competitions, won one (shout out to the amazing Omar Osman and Dr. Rachel Aranoff for teaming up with me, see our work here: https://github.com/vikadilly/ORLIAn/wiki) 
 
-We got promised that we'd work together with Roche and the organizers to publish our findings (and we saw some promising stuff), only to find out that this wasn't happening. Whatever. This experience taught me that while machine learning is totally cool, I am very happy sticking on course as a Services Engineer. At least I don't have to deal with totally rubbish datasets. 
+We got promised that we'd work together with Roche and the organizers to publish our findings (and we saw some promising stuff), only to find out that this wasn't happening. Whatever. This experience taught me that while machine learning is totally cool (I am planning to do the Fast.AI stuff on Image Generation when I get a chance), I am very happy sticking on course to become the best Services Engineer I can be. At least I don't have to deal with totally rubbish datasets. 
 
 I then tried to build my own apps and become a 🦄 Start Up Unicorn Founder 🦄. One got pretty big... only to find out that it's actually a lot of work and I don't think I quite figured that running a business *is not* developing software. There is a lot for me to learn, both about development and meeting customer requirements. 
 
