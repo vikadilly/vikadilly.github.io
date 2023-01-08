@@ -8,7 +8,7 @@ tags: "math"
 
 # Going from counting sticks to Single Variable Calculus 
 
-Context: I was having a pint with my school friend (who currently works at a kick-ass start up), Sim, and we were lamenting over the lack of Mathematics in our day to day. He bemoaned his lack of opportunities to explore quantum mechanics, I cried over the fact I couldn't remember Pythagoras. 
+Context: I was having a pint with my school friend (who currently works at a kick-ass start up), Sim. We were talking about how different life is sfrom uni. He bemoaned his lack of opportunities to explore quantum mechanics, I cried over the fact I couldn't remember Pythagoras. 
 
 This set the stage for our newest club: The Derek Zoolander Club for Engineers Who Can't Add Good or Do Anything Good. 
 
