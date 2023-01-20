@@ -44,7 +44,6 @@ a {
 }
 
 #top-container {
-  position: fixed;
   padding-bottom: 5px;
   z-index: 999;
 }
