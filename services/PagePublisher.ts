@@ -18,8 +18,8 @@ class PagePublisher {
    * Builds `about` page template file.
    */
   public static publishAbout() {
-    const TEMPLATE: Buffer = fs.readFileSync(path.join(__dirname, '../app/templates/about.ejs'));
-    const DIST_PATH: string = path.join(__dirname, '../app/public/about.html');
+    const TEMPLATE: Buffer = fs.readFileSync(path.join(__dirname, '../app/templates/index.ejs'));
+    const DIST_PATH: string = path.join(__dirname, '../app/public/index.html');
     fs.writeFileSync(DIST_PATH, ejs.render(String(TEMPLATE)));
   }
 
