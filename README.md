@@ -59,9 +59,9 @@ Handmade Blog is a lightweight static blog generator for people who want to star
         <span>customized blog subtitle</span>
       </a>
       <small>
-        <a id="about" class="info-link" href="/about.html">👀About</a> /
-        <a id="works" class="info-link" href="/works.html">🔥Works</a> /
-        <a id="articles" class="info-link" href="/articles.html">📚Articles</a>
+        <a id="about" class="info-link" href="/about.html">About</a> /
+        <a id="works" class="info-link" href="/works.html">Works</a> /
+        <a id="articles" class="info-link" href="/articles.html">Articles</a>
       </small>
     </nav>
     ```
