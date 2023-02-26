@@ -1,0 +1,118 @@
+<!doctypehtml>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Going from counting sticks to Single Variable Diffrentiation</title>
+
+  <meta name="viewport"content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible"content="ie=edge">
+
+  <link rel="shortcut icon"href="../assets/favicon.ico"type="image/x-icon">
+  <link rel="preload"href="../styles/article.css"as="style">
+  <link rel="stylesheet"href="../styles/article.css">
+</head>
+<body>
+  <header id="top-container"role="navigation">
+    <nav>
+  <a class="logo-link"href="/">
+    <h1>Vikadilly</h1>
+    <span> is doing stuff</span>
+  </a>
+  <small>
+    <a id="works"class="info-link"href="/works.html">Works</a> /
+    <a id="articles"class="info-link"href="/articles.html">Articles</a>
+  </small>
+</nav>
+  </header>
+  <main id="main-container">
+    <article id="article-container">
+      <h1 id="article-title">
+        Going from counting sticks to Single Variable Diffrentiation
+      </h1>
+      
+      <time id="article-date">
+        2023.1.15
+      </time>
+      <section id="article-content-container">
+        <details><summary>Table of Contents</summary>
+<p><div class="table-of-contents"><ul><li><a href="#going-from-counting-sticks-to-single-variable-calculus">Going from counting sticks to Single Variable Calculus</a><ul><li><a href="#let%E2%80%99s-start-at-the-end%3A-why-was-single-variable-calculus-invented%3F">Let’s start at the end: why was Single Variable Calculus invented?</a><li><a href="#the-tangent-problem">The Tangent Problem</a><li><a href="#the-area-problem">The Area Problem</a><li><a href="#how-did-we-solve-this-issue%3F">How did we solve this issue?</a><li><a href="#counting---50%2C000-years-ago">Counting - 50,000 Years Ago</a><li><a href="#fast-forward-to-the-600-bc">Fast Forward to the 600 BC</a><li><a href="#rationals-are-not-enough">Rationals are not enough</a><li><a href="#proof-that-there-is-an-irrational-number-between-two-numbers">Proof that there is an irrational number between two numbers</a><li><a href="#irrational-numbers-let-us-get-up-close-and-personal">Irrational numbers let us get up close and personal</a><li><a href="#epsilon-delta-definition-of-a-limit">Epsilon-Delta Definition of a Limit</a><li><a href="#what-about-the-area-problem%3F">What about the Area Problem?</a></ul></ul></div><p></p>
+</details>
+<h1 id="going-from-counting-sticks-to-single-variable-calculus"tabindex="-1">Going from counting sticks to Single Variable Calculus</h1>
+<p>Context: My sister is doing her A Levels and finds it incredibly boring. I wrote this to show that the story of Math is incredibly fun. Maths is a beautiful story about the creativity of humans and not just a solve x to find y deal.</p>
+<p>I haven’t figured how to put images on this blog so I will stick with high level concepts, linking proofs and fun things to go deeper on.</p>
+<p>I also showed this to my friends.</p>
+<h4 id="note"tabindex="-1">Note</h4>
+<p>I realise I probably made some mistakes. If I did, then call me out. I can only get better from here.</p>
+<p>Without further ado, here we go:</p>
+<h2 id="let%E2%80%99s-start-at-the-end%3A-why-was-single-variable-calculus-invented%3F"tabindex="-1">Let’s start at the end: why was Single Variable Calculus invented?</h2>
+<p>We invent techniques in math to solve problems. The problems we wanted to solve were the Tangent Problem (which gives us diffrentiation) and Area Problem (which gives us integration.)</p>
+<p>Using these techniques, we are able to find the rate of change of a variable (diffrentiation) or adding up the area of a curve to find out a certain quantity. If we restrict these techniques to a single variable such as: y = x (where x is the single variable) - you get single variable calculus</p>
+<h2 id="the-tangent-problem"tabindex="-1">The Tangent Problem</h2>
+<p>This problem states that you can find the rate of change between two points in a curve if you bring the points really really close to each other and calculate the slope there. How close? Very very close. So close, we can’t put a number on it.</p>
+<h2 id="the-area-problem"tabindex="-1">The Area Problem</h2>
+<p>This problem states that you can find the area under a curve by dividing up the area of the curve into small rectangles. The smaller the the rectangles, the more accurate you are. How small? Very very small. So small, we can’t put a number on it.</p>
+<h2 id="how-did-we-solve-this-issue%3F"tabindex="-1">How did we solve this issue?</h2>
+<p>To create a number which “approaches” another number (this means a number which isn’t the same as the number we want to approach but very very close to it), we have to create a few things:</p>
+<ol>
+<li>We had to create a number system - the integers worked fine.</li>
+<li>There are numbers between numbers - the rationals</li>
+<li>There are numbers between the numbers stated in Point 2 - the irrationals</li>
+<li>There are more gaps and smaller numbers between that - limits</li>
+</ol>
+<h2 id="counting---50%2C000-years-ago"tabindex="-1">Counting - 50,000 Years Ago</h2>
+<p>Counting was invented in order to track goods. Sumerians would walk around with clay tablets - marks usually denoted the quantity of something.</p>
+<p>The Sumerians used a Base 60 system so their numbering system was very different to how it is today. The Egyptians were the first to use a Base 10. Despite this, the usage remained the same. This gleans a very important property of the numbering system: it doesn’t matter how it’s counted, what matters is that you have definite seperation between the units. This means you can play around with the numbering system.</p>
+<p>This is an important property because single variate calculus is very interested in what happens in the gaps between numbers.</p>
+<h2 id="fast-forward-to-the-600-bc"tabindex="-1">Fast Forward to the 600 BC</h2>
+<p>At some point, a whole bunch of Greek mathematicians such as Pythagoras and Hippasus figured by taking two numbers and dividing them over each other, you can create a number which is between two numbers. Enter: rational numbers.</p>
+<p>A rational number is denoted by Q. It’s a quotient of two integers (p over q, where q is greater than 0.)</p>
+<p>Rational numbers are great - they let us calculate fractions so now, we can divide things amongst people nicely. Yay!</p>
+<h2 id="rationals-are-not-enough"tabindex="-1">Rationals are not enough</h2>
+<p>They have limitations. Say a bunch of farmers were counting up their stock every season and they plotted it out. They wanted to know the rate of change between one month and the next month (this would give the growth of crops in a way which wasn’t visual.) They ran to the local mathematician (the Greeks were cool like that) and asked them to come up with this problem.</p>
+<p>So the mathematician took out his ruler and started working out the distance between two points. As he got closer, he discovered that he ran out of rational numbers, he needed something a lot smaller. There were numbers that couldn’t follow the pattern of p / q neatly. These are the irrationals. And they’re great.</p>
+<h2 id="proof-that-there-is-an-irrational-number-between-two-numbers"tabindex="-1">Proof that there is an irrational number between two numbers</h2>
+<p>A great wiki of proofs is <a href="https://proofwiki.org/wiki/Between_two_Real_Numbers_exists_Irrational_Number">here</a></p>
+<h2 id="irrational-numbers-let-us-get-up-close-and-personal"tabindex="-1">Irrational numbers let us get up close and personal</h2>
+<p>We can conclusively say now that irrationals do exist, and sit between any two numbers, we can always say that there is a smaller number between the gap between two numbers. This gives us a very important thing: a limit.</p>
+<p>Hm. Could we use limits to approach a value on the curve to find a rate of change between a point and a small increase of that point? Yes we can!</p>
+<h2 id="epsilon-delta-definition-of-a-limit"tabindex="-1">Epsilon-Delta Definition of a Limit</h2>
+<p><a href="https://calcworkshop.com/limits/epsilon-delta-definition/">Read this before carrying on</a></p>
+<p>This scary looking thing basically means that on a graph, between two points, we can always find another point on the curve that approaches the limit. Huzzah! We don’t need to bother finding a smaller number to calculate our difference between two points cause there will ALWAYS be a smaller gap on our curve.</p>
+<p>Using this, we can create the <a href="http://www2.gcc.edu/dept/math/faculty/BancroftED/teaching/handouts/differentiation.pdf">limit definition of diffrentiation</a></p>
+<h2 id="what-about-the-area-problem%3F"tabindex="-1">What about the Area Problem?</h2>
+<p>Remember how we use areas of rectangles below a curve to find the area?</p>
+<p>This is formally defined as a Riemann Sum.</p>
+<p>Let’s pick a number of rectangles so unbelievably large, you couldn’t come up with a number cause the number used is larger than that. This would mean the area of the rectangles would be incredibly tiny. This is formally known as infinity.</p>
+<p>This gives us the Riemann Integral and it’s smoooooth.</p>
+<p>There is also Lebesgue integration which basically lets you integrate on way more things as well.</p>
+
+      </section>
+      <section id="article-navigation">
+        
+          <div class="article-navigation-item article-navigation-next">
+            <a href="/article/1.html">
+              <div class="article-navigation-arrow article-navigation-next">＜</div>
+              <div class="article-navigation-content article-navigation-next">
+                <p class="article-navigation-title">How does one make `right` art</p>
+                <p class="article-navigation-subtitle">How to objectively create new work</p>
+              </div>
+            </a>
+          </div>
+        
+        
+          <div class="article-navigation-item article-navigation-prev">
+            <a href="/article/3.html">
+              <div class="article-navigation-arrow article-navigation-prev">＞</div>
+              <div class="article-navigation-content article-navigation-prev">
+                <p class="article-navigation-title">Who am I for</p>
+                <p class="article-navigation-subtitle">And who I am not for</p>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+    </article>
+  </main>
+
+
